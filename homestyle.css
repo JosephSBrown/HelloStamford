@@ -1,0 +1,43 @@
+.navigation {
+    color: white;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+body {
+    background-color: lightgrey;
+}
+footer {
+    background-color: grey;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.footertop {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.footerleft {
+    width: 50%;
+    float: left;
+    bottom: 0;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+}
+.footerright {
+    width: 50%;
+    float: right;
+    background-color: lime;
+    display: inline-block;
+    text-align: center;
+}
+.footerbottom {
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+}
