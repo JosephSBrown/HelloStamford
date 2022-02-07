@@ -1,11 +1,3 @@
-.navigation {
-    color: white;
-    background-color: black;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: sticky;
-}
 body {
     background-color: lightgrey;
 }
@@ -41,3 +33,30 @@ footer {
     text-align: center;
     background-color: yellow;
 }
+/*Navigation Classes*/
+    .navigation {
+        color: white;
+        background-color: black;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: sticky;
+    }
+    .nav-option {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        float: left;
+        display: block;
+        text-decoration: none;
+    }
+    .nav-option:hover {
+        background-color: white;
+    }
+    li {
+        float: left;
+        list-style-type: none;
+        display:  block;
+        padding: 0;
+        margin: 0;
+    }
