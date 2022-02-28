@@ -1,62 +1,140 @@
-body {
-    background-color: lightgrey;
-}
-footer {
-    background-color: grey;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-}
-.footertop {
-    width: 100%;
-    display: block;
-    text-align: center;
-}
-.footerleft {
-    width: 50%;
-    float: left;
-    bottom: 0;
-    background-color: lightseagreen;
-    display: inline-block;
-    text-align: center;
-}
-.footerright {
-    width: 50%;
-    float: right;
-    background-color: lime;
-    display: inline-block;
-    text-align: center;
-}
-.footerbottom {
-    width: 100%;
-    text-align: center;
-    background-color: yellow;
-}
+/*Body Classes*/    
+    body {
+        background-color: lightgrey;
+    }
+/*Main*/
+    .main {
+        margin-top: 85px;
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+/*Footer Classes*/    
+    footer {
+        background-color: #1F1B24;
+        color: white;
+        font-family: Hubballi;
+        font-size: 20px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+    }
+    .footer-left {
+        width: 50%;
+        float: left;
+        text-align: left center;
+        height: 50px;
+    }
+    .footer-right {
+        width: 50%;
+        float: right;
+        text-align: right;
+        height: 50px;
+    }
+    .footer-bottom {
+        width: 100% !important;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    .ql-head {
+        text-align: center;
+        font-size: 24px;
+        margin: 10px;
+    }
+    .foot-center {
+        text-align: center;
+    }
+    .foot-option {
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .foot-option:hover {
+        color: white;
+        transform: scale(1.5);
+        text-decoration: underline;
+    }
 /*Navigation Classes*/
     .navigation {
-        color: white;
-        background-color: black;
+        background-color: #1F1B24;
         width: 100%;
         top: 0;
         left: 0;
-        position: sticky;
+        position: fixed;
+        font-family: Hubballi;
+        font-size: 20px;
+        height: 85px;
+    }
+    ul {
+        height: 100% !important;
     }
     .nav-option {
+        color: white;
         list-style-type: none;
-        margin: 0;
         padding: 10px;
-        float: left;
         display: block;
         text-decoration: none;
+        height: 100% !important;
     }
     .nav-option:hover {
-        background-color: white;
+        transform: scale(1.25);
+        text-decoration: underline;
     }
     li {
-        float: left;
         list-style-type: none;
-        display:  block;
+        display:  inline-block;
         padding: 0;
         margin: 0;
+    }
+/*API and Embed Classes*/    
+    .weatherapibox {
+        float: left;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+    .Weather {
+        font-family: Hubballi;
+        font-size: 20px;
+    }
+    #map {
+        height: 400px;
+        width: 33%;
+    }
+    .twitter-timeline {
+        width: 10%;
+    }
+    /*Reusable*/
+    .font {
+        font-family: Hubballi;
+    }
+    
+
+    @media screen and (max-width: 480px) {
+        body {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        body {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        body {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        body {
+            width: 100%;
+        }
     }
