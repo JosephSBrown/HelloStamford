@@ -1,0 +1,60 @@
+{"intents":[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "How Are You",
+            "Is Anyone There?",
+            "Good Day"
+        ],
+        "responses": [
+            "Hello",
+            "Hi",
+            "What Would You Like Help With Today?",
+            "Hi There",
+            "Is There Anything I Can Do For You Today?",
+            "Hi, Thank You For Visiting"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "See You Later",
+            "Goodbye",
+            "Bye",
+            "See Ya"
+        ],
+        "responses": [
+            "Bye!",
+            "Until Next Time!",
+            "Goodbye",
+            "See You Later",
+            "See Ya"
+        ]
+    },
+    {
+        "tag": "information",
+        "patterns": [
+            "What is Stamford?",
+            "Can You Tell Me about Stamford?",
+            "What Should I Know?"
+        ],
+        "responses": [
+            "Stamford is a Beautiful Town, Located in Lincolnshire, not far from Peterborough. It boasts numerous Stone and Timber Buildings, Dating Back to the 17th Century",
+            "Stamford is a Town Built in 1641, it is regularly a strong choice as a Filming Location!"
+        ]
+    },
+    {
+        "tag": "attractions",
+        "patterns": [
+            "What is there to do in Stamford?",
+            "What Attractions are There?",
+            "What Can I do?",
+            "Does Stamford have anything to do?"
+        ],
+        "responses": [
+            "Stamford has lots to do!"
+        ]
+    }
+]}
