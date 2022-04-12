@@ -6,8 +6,7 @@
     .main {
         margin-top: 85px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -7px;
     }
 /*Images*/
     img {
@@ -131,7 +130,8 @@
         right: 0;
         width: 50%;
         height: 100%;
-        background-color: rgba(173, 168, 168, 0.7);
+        background-color: rgba(154, 160, 166, 0.7);
+        border-left: solid black 2px;
     }
     .rmfont {
         font-size: 26px;
@@ -205,6 +205,10 @@
     .underline {
         text-decoration: underline;
     }
+    .spacing {
+        margin: 0px;
+        margin-bottom: 4px;
+    }
 /*Slide CSS*/
     .slideshow-container {
         width: 99%;
@@ -223,6 +227,7 @@
         height: 100%;
         object-fit: cover;
         object-position: 100% 0;
+        text-align: center;
     }
 
     @media screen and (max-width: 380px) {
@@ -255,6 +260,10 @@
         .Weather {
             font-size: 14px;
         }
+        .slideshow-container {
+            height: 100px !important;
+            width: 90%;
+        }
     }
 
     @media screen and (max-width: 480px) {
@@ -285,9 +294,6 @@
 
     @media screen and (max-width: 570px) {
         body {
-            width: 100%;
-        }
-        .main {
             width: 100%;
         }
         .slideshow-container {
