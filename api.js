@@ -13,9 +13,6 @@ function initMap() {
     });
 }
 
-<div id="map">
-           <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap&libraries=&=weekly" async></script>
-       </div>
-       <div>
-           <a class="twitter-timeline" data-lang="ja" data-theme="dark" href="https://twitter.com/Joseph_Brown_?ref_src=twsrc%5Etfw">Tweets by Joseph_Brown_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-       </div>
+//       <div>
+//           <a class="twitter-timeline" data-lang="ja" data-theme="dark" href="https://twitter.com/Joseph_Brown_?ref_src=twsrc%5Etfw">Tweets by Joseph_Brown_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+//       </div>
